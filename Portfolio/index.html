@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+
+
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+
+
+        <div class="header-content"> 
+          <div class="container grid-2">
+            <div class="column-2 image">
+              <img src="./img/profile.png" class="img-element z-index" alt="", />
+            </div>
+            <div class="column-1">
+              
+              <h1 class="header-title">Jaimie Catindig</h1>
+              <p class="subtext">
+                Web and Graphic Designer
+              </p>
+              <a href="C:\Users\Jaimie\OneDrive\Documents\My Portfolio\Portfolio\Jaimie Catidig.pdf" class="btn">Download CV</a>
+            </div>
+     
+        </div>
+        </div>
+      </header>
+
+
+
+      <section class="about section" id="about" >
+        <div class="container" >
+              
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-3">
+            <div class="column-1 image">
+              <img src="./img/WhoAmI.png" class="z-index" alt="" />
+            </div>
+            <div class="column-2">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+                Hello, my name is Jaimie Catindig. As a web/graphic designer, 
+                I am enthusiastic about producing aesthetically appealing and 
+                user-friendly designs. Because of my experience with Adobe Creative 
+                Suite and Figma, I can build designs that are both useful and 
+                aesthetically pleasing.
+              </p>
+              <div class="skills">
+                <div class="skill PS">
+                  <h3 class="skill-title">Adobe Photoshop</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="90%"></div>
+                  </div>
+                </div>
+                <div class="skill XD">
+                  <h3 class="skill-title">Adobe XD</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+                <div class="skill AI">
+                  <h3 class="skill-title">Adobe Illustrator</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="60%"></div>
+                  </div>
+                </div>
+                <div class="skill FIG">
+                  <h3 class="skill-title">Figma</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="70%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="portfolio section" id="portfolio">
+        <div class="background-bg">
+        
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="My works">Portfolio</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">All</button>
+              <button class="filter-btn" data-filter=".Design">Web Design</button>
+              <button class="filter-btn" data-filter=".BS">Business Cards</button>
+            </div>
+
+            <div class="grid">
+              <div class="grid-item BS">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port1.jpg" alt="" onclick="window.open(this.src)" />
+                </div>
+              </div>
+              <div class="grid-item Design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port2.png" alt="" onclick="window.open(this.src)"/>
+             
+                </div>
+              </div>
+              <div class="grid-item Design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port3.png" alt=""  onclick="window.open(this.src)"/>
+ 
+                </div>
+              </div>
+              <div class="grid-item Design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port4.png" alt=""  onclick="window.open(this.src)"/>
+  
+                </div>
+              </div>
+              <div class="grid-item Design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port5.jpg" alt=""  onclick="window.open(this.src)"/>
+
+                </div>
+              </div>
+              <div class="grid-item BS">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port6.png" alt=""  onclick="window.open(this.src)"/>
+                  
+                </div>
+              </div>
+              <div class="grid-item Design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port7.png" alt=""  onclick="window.open(this.src)"/>
+                 
+                </div>
+              </div>
+              <div class="grid-item appdev ui">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port8.png" alt=""  onclick="window.open(this.src)"/>
+                 
+                </div>
+              </div>
+              <div class="grid-item Design">
+                <div class="gallery-image">
+                  <img src="./img/portfolio/port9.png" alt=""  onclick="window.open(this.src)"/>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="contact" id="contact">
+       
+         
+            <div class="contact-info">
+              <h3 class="title-contact-text">Contact Me</h3>
+              <p class="text_Contact">
+                Keep in touch with me via the provided contact information below. 
+              </p>
+  
+            <div class="row">
+              <div class="column" >
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p class="info-text">Silang, Cavite, Philippines</p>
+              </div>
+              <div class="column" >
+                <div class="contact-icon">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+                <p class="info-text">catindig.jaimie.g@gmail.com</p>
+              </div>
+              <div class="column">
+                <div class="contact-icon"> 
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <p class="info-text">(0935) 339 – 4480</p>
+              </div>
+              </div>
+            </div>
+
+       
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+              I create websites that help organizations address business challenges and meet their needs. 
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+           <div><input type="hidden" class="footer-input"   />
+      
+          </div>
+           
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 All rights reserved | Made by Jaimie catindig
+             
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://m.me/JaimieCatindig">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jaimiecatindig20/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
